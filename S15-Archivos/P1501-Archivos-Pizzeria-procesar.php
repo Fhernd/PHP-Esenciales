@@ -23,7 +23,7 @@ if ($napolitana) {
 }
 
 if ($muzaralla) {
-    $cantidad = intval($_POST['cantidadMuzaralla']);
+    $cantidad = intval($_POST['cantidadMuzarella']);
     fputs($archivo, "muzaralla;$cantidad");
 }
 
