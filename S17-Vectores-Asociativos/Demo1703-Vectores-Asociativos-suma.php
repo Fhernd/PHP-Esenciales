@@ -3,7 +3,7 @@
 </head>
 
 <body>
-  <form action="pagina2.php" method="post">
+  <form action="Demo1703-Vectores-Asociativos-suma-procesar.php" method="post">
     Ingrese primer valor:
     <input type="text" name="valor1">
     <br>
