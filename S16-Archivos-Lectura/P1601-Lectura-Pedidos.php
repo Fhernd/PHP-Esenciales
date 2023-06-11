@@ -6,6 +6,15 @@ $archivoPedidos = fopen("pedidos.txt", "r") or
 
 while (!feof($archivoPedidos)) {
     $linea = fgets($archivoPedidos);
-    $lineasalto = nl2br($linea);
-    echo $lineasalto;
+
+    $partes = explode(";", $linea);
+
+    echo "Este es el pedido: <br>";
+    for ($i = 0; $i < count($partes); $i++) {
+        echo $partes[$i] . "<br>";
+    }
+    echo "<br>";
+
+    // $lineasalto = nl2br($linea);
+    // echo $lineasalto;
 }
