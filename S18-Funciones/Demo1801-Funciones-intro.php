@@ -9,14 +9,18 @@
     <?php
     function mostrartitulo($men)
     {
-        echo "<h1 style=\"text-align:center\">";
+        echo '<h1 style="text-align:center">';
         echo $men;
-        echo "</h1>";
+        echo '</h1>';
     }
 
     mostrartitulo("Primer titulo");
     echo "<br>";
     mostrartitulo("Segundo segundo");
+
+    echo "<br>";
+
+    mostrartitulo("Tercer titulo")
 
     ?>
 
