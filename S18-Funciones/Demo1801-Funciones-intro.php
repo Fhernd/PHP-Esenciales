@@ -20,7 +20,7 @@
 
     echo "<br>";
 
-    mostrartitulo("Tercer titulo")
+    mostrartitulo("Tercer titulo");
 
     ?>
 
