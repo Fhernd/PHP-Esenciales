@@ -7,20 +7,20 @@
 <body>
 
     <?php
-    function mostrartitulo($men)
+    function mostrarTitulo($mensaje)
     {
         echo '<h1 style="text-align:center">';
-        echo $men;
+        echo $mensaje;
         echo '</h1>';
     }
 
-    mostrartitulo("Primer titulo");
+    mostrarTitulo("Primer titulo");
     echo "<br>";
-    mostrartitulo("Segundo segundo");
+    mostrarTitulo("Segundo segundo");
 
     echo "<br>";
 
-    mostrartitulo("Tercer titulo");
+    mostrarTitulo("Tercer titulo");
 
     ?>
 
