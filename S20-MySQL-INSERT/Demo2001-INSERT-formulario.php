@@ -10,9 +10,9 @@
         Ingrese nombre:
         <input type="text" name="nombre"><br>
         Ingrese mail:
-        <input type="text" name="mail"><br>
+        <input type="text" name="correo><br>
         Seleccione el curso:
-        <select name="codigocurso">
+        <select name="codigoCurso">
             <option value="1">PHP</option>
             <option value="2">ASP</option>
             <option value="3">JSP</option>
