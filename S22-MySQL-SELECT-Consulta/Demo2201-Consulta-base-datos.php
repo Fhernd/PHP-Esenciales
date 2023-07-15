@@ -10,7 +10,7 @@
         die("Problemas con la conexión");
 
     $registros = mysqli_query($conexion, "SELECT codigo, nombre, codigo_curso
-                        FROM alumnos WHERE correo='$_REQUEST[correo]'") or
+                        FROM alumno WHERE correo='$_REQUEST[correo]'") or
         die("Problemas en el select:" . mysqli_error($conexion));
 
     if ($reg = mysqli_fetch_array($registros)) {
